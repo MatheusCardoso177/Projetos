@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	
+	<meta charset="UTF-8"/>
+		
+		<title>Document</title>
+
+</head>
+	
+
+	<body>
+		<body background="https://i.pinimg.com/originals/a4/ce/e5/a4cee5001135f0a48a0dab84d8ddf2ce.jpg">
+
+		<h1>
+
+			<a  <font size=+10 </font Style="Color:Black;"> Minha coisinha Perfeitinha</a></p> </h1></font>
+			<a href="Listas.html"> </h1>
+
+			<h2> 
+				<fon face="Arial;"/font>  <a Style="Color:red;"> <b>Eu te Amo,mais que tudo meu serhumaninho perfeito <3 </a> </font> </font></h2>
+			
+			<h3>
+				<font face="Arial">
+				<font color="red"> Você é Muito importante para mim meu amor Obrigado por sua companhia,carinho, o meu amor por você é gigantesco<b>Você é tudo pra mim</b></font>
+				
+			</h3>
+	<button>"É o Amor da minha vida"</button>
+	
+<script >
+
+<form> 
+  <input type="button" value="Start machine">
+</form>
+<p>The machine is stopped.</p>
+const button = document.querySelector('input');
+const paragraph = document.querySelector('p');
+
+button.addEventListener('click', updateButton);
+
+function updateButton() {
+  if (button.value === 'Start machine') {
+    button.value = 'Stop machine';
+    paragraph.textContent = 'The machine has started!';
+  } else {
+    button.value = 'Start machine';
+    paragraph.textContent = 'The machine is stopped.';
+  }
+}
+
+</script>
+
+
+	</body>
+
+
+</html>
